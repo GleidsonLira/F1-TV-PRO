@@ -2,6 +2,7 @@
     --branco-principal: #ffffff;
     --amarelo-principal: #FFD700;
     --vermelho-principal: #FF0000;
+    --preto-principal: #000000;
 }
 
 * {
@@ -16,4 +17,11 @@
 
 .container {
     height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--amarelo-principal);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--preto-principal);
 }
