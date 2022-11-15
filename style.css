@@ -1,0 +1,19 @@
+:root {
+    --branco-principal: #ffffff;
+    --amarelo-principal: #FFD700;
+    --vermelho-principal: #FF0000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+}
