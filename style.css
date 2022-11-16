@@ -20,7 +20,7 @@
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao {
@@ -44,3 +44,28 @@
 .container__caixa {
     margin: 0 3em;
 }
+
+.secudario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    margin: 0 6em;
+    text-align: center;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0.5em;
+}
+
+.descricao__texto {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container__descricao {
+    margin: 5em 3em; 
+}
+
